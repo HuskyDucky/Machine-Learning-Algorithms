@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Classic Algorithms" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="~/Desktop/bin/Classic_Algorithms" prefix_auto="1" extension_auto="1" />
+				<Option object_output="~/Desktop/obj/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-pedantic" />
+					<Add option="-Wextra" />
+					<Add option="-Wall" />
+					<Add option="-std=c++1z" />
+					<Add option="-m64" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-m64" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Genetic/Genetic.cpp" />
+		<Unit filename="Genetic/Genetic.h" />
+		<Unit filename="Genetic/Genetic_DNA.cpp" />
+		<Unit filename="Genetic/Genetic_DNA.h" />
+		<Unit filename="Genetic/Genetic_run.cpp" />
+		<Unit filename="Main.cpp" />
+		<Unit filename="_lib_/Ask.cpp" />
+		<Unit filename="_lib_/Ask.h" />
+		<Unit filename="_lib_/Ask_Menu.cpp" />
+		<Unit filename="_lib_/Ask_Menu.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
