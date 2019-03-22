@@ -299,7 +299,48 @@
 	<iomanip>
 	"Genetic.h"
 
-1552551670 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/Main.cpp
+1553072801 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/Main.cpp
 	<vector>
 	"_lib_/Ask_Menu.h"
+
+1553263040 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/Neuron/Neuron.cpp
+	"Neuron.h"
+	"Neuron_Abort.h"
+
+1553262939 /home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/Neuron/Neuron.h
+	<functional>
+	<random>
+	<chrono>
+
+1553260722 /home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/Neuron/Neuron_Abort.h
+	<iostream>
+
+1553186412 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/Neuron/Neuron_run.cpp
+	<random>
+	<chrono>
+	<optional>
+	<iostream>
+	<iomanip>
+	"Neuron.h"
+
+1553262984 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/Perceptron/Perceptron.cpp
+	"Perceptron.h"
+
+1553262984 /home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/Perceptron/Perceptron.h
+	"../Neuron/Neuron.h"
+
+1553263104 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/Perceptron/Perceptron_run.cpp
+	"Perceptron.h"
+	"Perceptron_run_Functions.h"
+
+1553262939 /home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/Perceptron/Perceptron_run_Functions.h
+	<vector>
+	<optional>
+	<functional>
+	<iostream>
+	<iomanip>
+	"Perceptron.h"
+
+1553260298 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/Perceptron/Perceptron_run_Functions.cpp
+	"Perceptron_run_Functions.h"
 

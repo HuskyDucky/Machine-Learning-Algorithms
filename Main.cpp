@@ -1,7 +1,7 @@
 /**
     File    : Main.cpp
     Author  : Menashe Rosemberg
-    Created : 2019.03.02            Version: 20190314.1
+    Created : 2019.03.02            Version: 20190320.1
 
     Construct a simple question and wait the answer
 
@@ -13,6 +13,7 @@
 **/
 
 void Run_Genetic_Algorithm();
+void Run_Perceptron();
 
 #include <vector>
 #include "_lib_/Ask_Menu.h"
@@ -20,8 +21,9 @@ void Run_Genetic_Algorithm();
 int main() {
 
     ListOfAnswers Options
-                    {{"Genetic Algorithm", [](){ Run_Genetic_Algorithm(); }}
-    } ;
+                    {{"Genetic Algorithm", [](){ Run_Genetic_Algorithm(); }},
+                     {"Perceptron", [](){ Run_Perceptron(); }}
+    };
 
     Ask_Menu TheQuestion("\n\nChoose the Algorithm you are learning:\n", move(Options));
     TheQuestion.Show();

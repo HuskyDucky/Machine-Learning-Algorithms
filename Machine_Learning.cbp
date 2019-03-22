@@ -35,6 +35,15 @@
 		<Unit filename="Genetic/Genetic_DNA.h" />
 		<Unit filename="Genetic/Genetic_run.cpp" />
 		<Unit filename="Main.cpp" />
+		<Unit filename="Neuron/Neuron.cpp" />
+		<Unit filename="Neuron/Neuron.h" />
+		<Unit filename="Neuron/Neuron_Abort.h" />
+		<Unit filename="Perceptron/Linear_Function.png" />
+		<Unit filename="Perceptron/Perceptron.cpp" />
+		<Unit filename="Perceptron/Perceptron.h" />
+		<Unit filename="Perceptron/Perceptron_run.cpp" />
+		<Unit filename="Perceptron/Perceptron_run_Functions.cpp" />
+		<Unit filename="Perceptron/Perceptron_run_Functions.h" />
 		<Unit filename="_lib_/Ask.cpp" />
 		<Unit filename="_lib_/Ask.h" />
 		<Unit filename="_lib_/Ask_Menu.cpp" />
