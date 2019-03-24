@@ -1,7 +1,7 @@
 /**
     File    : Perceptron_run.cpp
     Author  : Menashe Rosemberg
-    Created : 2019.03.17            Version: 20190321.1
+    Created : 2019.03.17            Version: 20190321.2
 
     Perceptron
 
@@ -19,9 +19,7 @@ Perceptron::Perceptron(const QDedritesType qofDedrites,
 
 void Perceptron::Training(const XYR2LearnWith& xyr) {
      for (uint16_t Teach = 0; Teach < xyr.size(); ++Teach)
-          this->LearnFrom(xyr[Teach].first, xyr[Teach].second);
-}
+          this->LearnFrom(xyr[Teach].first, xyr[Teach].second); }
 
 AxonResult Perceptron::run(const DatasList& xy) {
-           return this->FeedDedritesWith(xy);
-}
+           return this->FeedDedritesWith(xy); }

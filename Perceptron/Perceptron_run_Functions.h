@@ -1,7 +1,7 @@
 /**
     File    : Perceptron_run_Functions.h
     Author  : Menashe Rosemberg
-    Created : 2019.03.17            Version: 20190322.1
+    Created : 2019.03.17            Version: 20190324.1
 
     Perceptron
 
@@ -14,6 +14,7 @@
 #ifndef PERCEPTRON_RUN_H
 #define PERCEPTRON_RUN_H
 
+#include <array>
 #include <vector>
 #include <optional>
 #include <functional>
@@ -25,12 +26,40 @@ using namespace std;
 
 #include "Perceptron.h"
 
+struct pointlimit {
+       pointlimit(int16_t i, int16_t e) : Ini(i), End(e) {}
+       int16_t Ini;
+       int16_t End;
+};
+
 using TargetFunction = function<double(vector<double>)>;
 
-XY GenerateRandomPoints(const uint16_t QOfElements);
-XY CopyThe15FirstPointsFrom(const XYR2LearnWith& xyr);
-void PrintResults(uint16_t Pos, const XY& xy, AxonResult Guess, const XYR2LearnWith& Target);
-void ShowPoint(int16_t dedriteX, int16_t dedriteY, AxonResult Position, optional<AxonResult> Result = nullopt);
-XYR2LearnWith GenerateAndPrintTrainingPoints(const uint16_t QOfTrainingPoints, const TargetFunction& TargetF, const AxonActFunction& ActFunction);
+struct PointsGenerator {
+       PointsGenerator(const vector<DatasList>& CPoints,
+                       const vector<pointlimit>& xylim);
+
+    //This version works just with 2 coordinates
+    XYR2LearnWith GenerateAndPrintTrainingPoints(const uint16_t QOfTrainingPoints, const TargetFunction& TargetF, const AxonActFunction& ActFunction);
+    XY CopyFirstPoints(const uint16_t TotPoints) const;
+    vector<DatasList>::size_type QOfCriticalPoints() const;
+
+    private:
+        const vector<DatasList> CriticalPoints;
+        const vector<pointlimit> xylimits;
+        XY xy;
+
+        void GenerateRandomPoints(const uint16_t QOfElements);
+};
+
+void PrintResults(const bool PrintLine,
+                  uint16_t Pos,
+                  const XY& xy,
+                  AxonResult Guess,
+                  const XYR2LearnWith& Target);
+void ShowPoint(const bool PrintLine,
+               int16_t dedriteX,
+               int16_t dedriteY,
+               AxonResult Position,
+               optional<AxonResult> Result = nullopt);
 
 #endif // PERCEPTRON_RUN_H
