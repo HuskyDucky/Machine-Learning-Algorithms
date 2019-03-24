@@ -1,267 +1,4 @@
 # depslib dependency file v1.0
-1552123067 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/_lib_/_Lib_Edge.cpp
-	"_Lib_Edge.h"
-
-1552123067 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/_lib_/_Lib_Edge.h
-	<cinttypes>
-
-1552123067 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/_lib_/_Lib_QuantVertices.cpp
-	<set>
-	<vector>
-	"_Lib_Edge.h"
-
-1552236551 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/_lib_/Ask.cpp
-	"Ask.h"
-
-1552236629 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/_lib_/Ask.h
-	<vector>
-	<string>
-	<sstream>
-	<iostream>
-	<algorithm>
-
-1552207137 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Binary_Tree/BFS.cpp
-	"BFS.h"
-
-1552207137 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Binary_Tree/BFS.h
-	<iostream>
-	<list>
-	<queue>
-	<vector>
-	"../_lib_/_Lib_Edge.h"
-	"../_lib_/_Lib_QuantVertices.cpp"
-
-1552123067 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/_lib_/_Lib_QuantVertices.cpp
-	<set>
-	<vector>
-	"_Lib_Edge.h"
-
-1552207137 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Binary_Tree/BFS_run.cpp
-	<iostream>
-	"../_lib_/_Lib_Edge.h"
-	"BFS.h"
-
-1552207182 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Binary_Tree/DFS_Interactive.cpp
-	"DFS_Interactive.h"
-
-1552210266 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Binary_Tree/DFS_Interactive.h
-	<iostream>
-	<list>
-	<stack>
-	<vector>
-	"../_lib_/_Lib_Edge.h"
-	"../_lib_/_Lib_QuantVertices.cpp"
-
-1552207182 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Binary_Tree/DFS_Interactive_run.cpp
-	<iostream>
-	"DFS_Interactive.h"
-
-1552206922 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Dynamic_Programming/Kadane.cpp
-	"Kadane.h"
-
-1552206922 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Dynamic_Programming/Kadane.h
-	<iostream>
-	<vector>
-
-1552206922 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Dynamic_Programming/Kadane_run.cpp
-	"Kadane.h"
-
-1552206905 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Dynamic_Programming/Knapsack.cpp
-	"Knapsack.h"
-
-1552206905 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Dynamic_Programming/Knapsack.h
-	<iostream>
-	<vector>
-
-1552206905 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Dynamic_Programming/Knapsack_run.cpp
-	"Knapsack.h"
-
-1552206856 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Dynamic_Programming/LongestSubsequence_Common.cpp
-	"LongestSubsequence_Common.h"
-
-1552206856 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Dynamic_Programming/LongestSubsequence_Common.h
-	<iostream>
-	<vector>
-	<algorithm>
-	<string_view>
-
-1552206856 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Dynamic_Programming/LongestSubsequence_Common_run.cpp
-	"LongestSubsequence_Common.h"
-
-1552206856 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Dynamic_Programming/LongestSubsequence_Palindromic.cpp
-	"LongestSubsequence_Palindromic.h"
-
-1552206856 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Dynamic_Programming/LongestSubsequence_Palindromic.h
-	<iostream>
-	<vector>
-	<algorithm>
-	<string_view>
-
-1552206856 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Dynamic_Programming/LongestSubsequence_Palindromic_run.cpp
-	"LongestSubsequence_Palindromic.h"
-
-1552382620 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Dijkastra.cpp
-	"Dijkastra.h"
-
-1552382639 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Dijkastra.h
-	<list>
-	<queue>
-	<vector>
-	"../_lib_/_Lib_Edge.h"
-	"../_lib_/_Lib_QuantVertices.cpp"
-
-1552206779 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Dijkastra_run.cpp
-	<iostream>
-	"../_lib_/_Lib_Edge.h"
-	"Dijkastra.h"
-
-1552206756 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Floyd.cpp
-	"Floyd.h"
-
-1552206756 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Floyd.h
-	"../_lib_/_Lib_Edge.h"
-	"../_lib_/_Lib_QuantVertices.cpp"
-
-1552206756 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Floyd_run.cpp
-	<iostream>
-	<iomanip>
-	"../_lib_/_Lib_Edge.h"
-	"Floyd.h"
-	<vector>
-
-1552382018 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Kruskal.cpp
-	"Kruskal.h"
-
-1552382005 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Kruskal.h
-	<vector>
-	<functional>
-	"../_lib_/_Lib_Edge.h"
-	"../_lib_/_Lib_QuantVertices.cpp"
-	"Kruskal_SubSet.h"
-
-1552382925 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Kruskal_SubSet.h
-	<limits>
-	<vector>
-	"Boruvka_Sollin_SubSet.h"
-
-1552387877 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Kruskal_run.cpp
-	<iostream>
-	"../_lib_/_Lib_Edge.h"
-	"Kruskal.h"
-
-1552382996 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Kruskal_SubSet.cpp
-	"Kruskal_SubSet.h"
-
-1552388092 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Main.cpp
-	<vector>
-	"_lib_/Ask_Menu.h"
-
-1552206649 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Others/Brent.cpp
-	"Brent.h"
-
-1552206649 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Others/Brent.h
-	<utility>
-
-1552206649 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Others/Brent_run.cpp
-	<iostream>
-	<iomanip>
-	"Brent.h"
-
-1552123426 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Binary_Tree/Huffman_Compression.cpp
-	"Huffman_Compression.h"
-
-1552207100 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Binary_Tree/Huffman_Compression.h
-	<iostream>
-	<string>
-	"Huffman_Compression_DataStructure.h"
-
-1552207100 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Binary_Tree/Huffman_Compression_run.cpp
-	<iostream>
-	"Huffman_Compression.h"
-
-1552207085 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Binary_Tree/Huffman_Compression_DataStructure.h
-	<memory>
-	<vector>
-	<queue>
-	<map>
-
-1552206671 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Others/CycleDetection.cpp
-	"CycleDetection.h"
-
-1552206671 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Others/CycleDetection.h
-	<list>
-	<vector>
-	"../_lib_/_Lib_Edge.h"
-	"../_lib_/_Lib_QuantVertices.cpp"
-
-1552206671 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Others/CycleDetection_run.cpp
-	<iostream>
-	"CycleDetection.h"
-
-1552207004 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Binary_Tree/Tarjan.cpp
-	"Tarjan.h"
-
-1552207004 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Binary_Tree/Tarjan.h
-	"DFS_Interactive.h"
-
-1552207004 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Binary_Tree/Tarjan_run.cpp
-	<iostream>
-	"Tarjan.h"
-
-1552236863 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/_lib_/Ask_Menu.cpp
-	"Ask_Menu.h"
-
-1552123067 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/_lib_/Ask_Menu.h
-	<functional>
-	"Ask.h"
-
-1552219617 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Binary_Tree/Kosaraju_Sharir.cpp
-	"Kosaraju_Sharir.h"
-
-1552219617 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Binary_Tree/Kosaraju_Sharir.h
-	<algorithm>
-	"DFS_Interactive.h"
-
-1552219617 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Binary_Tree/Kosaraju_Sharir_run.cpp
-	<iostream>
-	"Kosaraju_Sharir.h"
-
-1552386518 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Boruvka_Sollin.cpp
-	"Boruvka_Sollin.h"
-
-1552382103 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Boruvka_Sollin.h
-	<vector>
-	<functional>
-	"../_lib_/_Lib_Edge.h"
-	"../_lib_/_Lib_QuantVertices.cpp"
-	"Boruvka_Sollin_SubSet.h"
-
-1552387669 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Boruvka_Sollin_run.cpp
-	<iostream>
-	"../_lib_/_Lib_Edge.h"
-	"Boruvka_Sollin.h"
-
-1552382756 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Boruvka_Sollin_SubSet.h
-	<limits>
-	<vector>
-	"../_lib_/_Lib_Edge.h"
-
-1552329673 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Boruvka_Sollin_SubSet.cpp
-	"Boruvka_Sollin_SubSet.h"
-
-1552395372 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Prim_run.cpp
-	<iostream>
-	"../_lib_/_Lib_Edge.h"
-	"Prim.h"
-
-1552396245 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Prim.h
-	<vector>
-	"../_lib_/_Lib_Edge.h"
-	"../_lib_/_Lib_QuantVertices.cpp"
-
-1552396245 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Prim.cpp
-	"Prim.h"
-
 1552236551 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/_lib_/Ask.cpp
 	"Ask.h"
 
@@ -272,19 +9,19 @@
 	<iostream>
 	<algorithm>
 
-1552568240 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/Genetic/Genetic.cpp
-	"Genetic.h"
-
-1552567437 /home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/Genetic/Genetic.h
-	<functional>
-	"Genetic_DNA.h"
-
 1552476819 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/_lib_/Ask_Menu.cpp
 	"Ask_Menu.h"
 
 1552476810 /home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/_lib_/Ask_Menu.h
 	<functional>
 	"Ask.h"
+
+1552568240 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/Genetic/Genetic.cpp
+	"Genetic.h"
+
+1552567437 /home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/Genetic/Genetic.h
+	<functional>
+	"Genetic_DNA.h"
 
 1552567064 /home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/Genetic/Genetic_DNA.h
 	<chrono>
@@ -303,7 +40,7 @@
 	<vector>
 	"_lib_/Ask_Menu.h"
 
-1553263040 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/Neuron/Neuron.cpp
+1553435867 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/Neuron/Neuron.cpp
 	"Neuron.h"
 	"Neuron_Abort.h"
 
@@ -315,25 +52,18 @@
 1553260722 /home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/Neuron/Neuron_Abort.h
 	<iostream>
 
-1553186412 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/Neuron/Neuron_run.cpp
-	<random>
-	<chrono>
-	<optional>
-	<iostream>
-	<iomanip>
-	"Neuron.h"
-
-1553262984 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/Perceptron/Perceptron.cpp
+1553433860 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/Perceptron/Perceptron.cpp
 	"Perceptron.h"
 
 1553262984 /home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/Perceptron/Perceptron.h
 	"../Neuron/Neuron.h"
 
-1553263104 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/Perceptron/Perceptron_run.cpp
+1553435294 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/Perceptron/Perceptron_run.cpp
 	"Perceptron.h"
 	"Perceptron_run_Functions.h"
 
-1553262939 /home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/Perceptron/Perceptron_run_Functions.h
+1553435567 /home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/Perceptron/Perceptron_run_Functions.h
+	<array>
 	<vector>
 	<optional>
 	<functional>
@@ -341,6 +71,6 @@
 	<iomanip>
 	"Perceptron.h"
 
-1553260298 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/Perceptron/Perceptron_run_Functions.cpp
+1553435691 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/Perceptron/Perceptron_run_Functions.cpp
 	"Perceptron_run_Functions.h"
 
