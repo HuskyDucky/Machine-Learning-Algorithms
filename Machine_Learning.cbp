@@ -22,6 +22,7 @@
 				<Linker>
 					<Add option="-s" />
 					<Add option="-m64" />
+					<Add option="-lstdc++fs" />
 				</Linker>
 			</Target>
 		</Build>
@@ -34,6 +35,14 @@
 		<Unit filename="Genetic/Genetic_DNA.cpp" />
 		<Unit filename="Genetic/Genetic_DNA.h" />
 		<Unit filename="Genetic/Genetic_run.cpp" />
+		<Unit filename="KNN/KNN_Class.cpp" />
+		<Unit filename="KNN/KNN_Class.h" />
+		<Unit filename="KNN/KNN_Element.h" />
+		<Unit filename="KNN/KNN_ReadElements.cpp" />
+		<Unit filename="KNN/KNN_ReadElements.h" />
+		<Unit filename="KNN/KNN_run.cpp" />
+		<Unit filename="KNN/knn_Data2Test.txt" />
+		<Unit filename="KNN/knn_DataBase.txt" />
 		<Unit filename="Main.cpp" />
 		<Unit filename="Neuron/Neuron.cpp" />
 		<Unit filename="Neuron/Neuron.h" />

@@ -1,7 +1,7 @@
 /**
     File    : Main.cpp
     Author  : Menashe Rosemberg
-    Created : 2019.03.02            Version: 20190320.1
+    Created : 2019.03.02            Version: 20190516.1
 
     Construct a simple question and wait the answer
 
@@ -11,8 +11,8 @@
     Software distributed under the MIT License is distributed on an "AS IS" BASIS,
     NO WARRANTIES OR CONDITIONS OF ANY KIND, explicit or implicit.
 **/
-
 void Run_Genetic_Algorithm();
+void Run_KNN();
 void Run_Perceptron();
 
 #include <vector>
@@ -21,8 +21,9 @@ void Run_Perceptron();
 int main() {
 
     ListOfAnswers Options
-                    {{"Genetic Algorithm", [](){ Run_Genetic_Algorithm(); }},
-                     {"Perceptron", [](){ Run_Perceptron(); }}
+                    {{"Genetic Algorithm",              [](){ Run_Genetic_Algorithm(); }},
+                     {"k-Nearest Neighbors algorithm",  [](){ Run_KNN(); }},
+                     {"Perceptron",                     [](){ Run_Perceptron(); }}
     };
 
     Ask_Menu TheQuestion("\n\nChoose the Algorithm you are learning:\n", move(Options));

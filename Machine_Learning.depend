@@ -36,11 +36,11 @@
 	<iomanip>
 	"Genetic.h"
 
-1553072801 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/Main.cpp
+1558009954 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/Main.cpp
 	<vector>
 	"_lib_/Ask_Menu.h"
 
-1553435867 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/Neuron/Neuron.cpp
+1553435893 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/Neuron/Neuron.cpp
 	"Neuron.h"
 	"Neuron_Abort.h"
 
@@ -73,4 +73,33 @@
 
 1553435691 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/Perceptron/Perceptron_run_Functions.cpp
 	"Perceptron_run_Functions.h"
+
+1558010071 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/KNN/KNN_Class.cpp
+	"KNN_Class.h"
+
+1558009682 /home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/KNN/KNN_Class.h
+	<set>
+	<cmath>
+	<iostream>
+	<algorithm>
+	"KNN_Element.h"
+	"KNN_ReadElements.h"
+
+1558009690 /home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/KNN/KNN_Element.h
+	<array>
+	<vector>
+	<string>
+
+1558004617 /home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/KNN/KNN_ReadElements.h
+	<fstream>
+	<iostream>
+	<filesystem>
+	"KNN_Element.h"
+
+1558009728 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/KNN/KNN_ReadElements.cpp
+	"KNN_ReadElements.h"
+
+1558010044 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/KNN/KNN_run.cpp
+	"KNN_Class.h"
+	"KNN_ReadElements.h"
 
