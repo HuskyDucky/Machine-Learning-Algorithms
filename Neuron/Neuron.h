@@ -1,9 +1,9 @@
 /**
     File    : Neuron.h
     Author  : Menashe Rosemberg
-    Created : 2019.03.19            Version: 20190319.2
+    Created : 2019.03.19            Version: 20190506.1
 
-    Neuron
+    Neuron Base
 
     Menashe Rosemberg   Israel +972-52-323-0538
     Copyright(c) 2019      All rights reserved.
@@ -18,6 +18,8 @@
 #include <random>
 #include <chrono>
 
+#include "../_lib_/Abort.h"
+
 using namespace std;
 
 using QDedritesType     = uint8_t;
@@ -31,21 +33,21 @@ using AxonActFunction   = function<AxonResult(AxonResult)>;
 constexpr double BIAS = 1.0;
 
 struct Neuron {
-       Neuron(const QDedritesType qofDedrites, const double LearnRate, const AxonActFunction& fAxonF);
+       Neuron(const QDedritesType qofDedrites, const double LearnRate, const AxonActFunction& fAxon);
 
-    void LearnFrom(const DatasList& Data, AxonResult Target);
     AxonResult FeedDedritesWith(const DatasList& Data);
 
-    private:
+    protected:
         const AxonActFunction& Axon;
 
         const QDedritesType QOfDedrites;
         const double LearningRate;
 
-        double Error;
-
-        const DatasList* DedritesD;
+        //const DatasList* DedritesD;
+        DatasList DedritesD;
         WeightsList DedritesW;
+
+        AxonResult Result;          //More used with Neuron_Net
 
         AxonResult Nucleus() const;
 };
