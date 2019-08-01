@@ -1,4 +1,10 @@
 # depslib dependency file v1.0
+1558067564 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/_lib_/Abort.cpp
+	"Abort.h"
+
+1553601828 /home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/_lib_/Abort.h
+	<iostream>
+
 1552236551 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/_lib_/Ask.cpp
 	"Ask.h"
 
@@ -36,29 +42,37 @@
 	<iomanip>
 	"Genetic.h"
 
-1558009954 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/Main.cpp
+1558067518 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/Main.cpp
 	<vector>
 	"_lib_/Ask_Menu.h"
 
-1553435893 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/Neuron/Neuron.cpp
-	"Neuron.h"
-	"Neuron_Abort.h"
+1557217072 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/Neural_Network/Neural_Network.cpp
+	"Neural_Network.h"
 
-1553262939 /home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/Neuron/Neuron.h
+1553711556 /home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/Neural_Network/Neural_Network.h
+	"Neural_Network_Synapses.h"
+
+1553718647 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/Neural_Network/NeuraL_Network_run.cpp
+	<iostream>
+	<iomanip>
+	"Neural_Network.h"
+
+1557309313 /home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/Neuron/Neuron.h
 	<functional>
 	<random>
 	<chrono>
+	"../_lib_/Abort.h"
 
-1553260722 /home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/Neuron/Neuron_Abort.h
-	<iostream>
+1557309432 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/Neuron/Neuron.cpp
+	"Neuron.h"
 
-1553433860 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/Perceptron/Perceptron.cpp
+1553603610 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/Perceptron/Perceptron.cpp
 	"Perceptron.h"
 
-1553262984 /home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/Perceptron/Perceptron.h
-	"../Neuron/Neuron.h"
+1557217051 /home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/Perceptron/Perceptron.h
+	"../Neuron/Neuron_Perceptron.h"
 
-1553435294 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/Perceptron/Perceptron_run.cpp
+1553502896 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/Perceptron/Perceptron_run.cpp
 	"Perceptron.h"
 	"Perceptron_run_Functions.h"
 
@@ -71,8 +85,15 @@
 	<iomanip>
 	"Perceptron.h"
 
-1553435691 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/Perceptron/Perceptron_run_Functions.cpp
+1553715677 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/Perceptron/Perceptron_run_Functions.cpp
 	"Perceptron_run_Functions.h"
+
+1557309128 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/Neural_Network/Neural_Network_Synapses.cpp
+	"Neural_Network_Synapses.h"
+
+1557128396 /home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/Neural_Network/Neural_Network_Synapses.h
+	<vector>
+	"../Neuron/Neuron_Net.h"
 
 1558010071 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/KNN/KNN_Class.cpp
 	"KNN_Class.h"
@@ -99,7 +120,156 @@
 1558009728 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/KNN/KNN_ReadElements.cpp
 	"KNN_ReadElements.h"
 
-1558010044 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/KNN/KNN_run.cpp
+1558010386 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/KNN/KNN_run.cpp
 	"KNN_Class.h"
 	"KNN_ReadElements.h"
+
+1557309504 /home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/Neuron/Neuron_Net.h
+	"Neuron.h"
+
+1557309411 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/Neuron/Neuron_Net.cpp
+	"Neuron_Net.h"
+
+1557309446 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/Neuron/Neuron_Perceptron.cpp
+	"Neuron_Perceptron.h"
+
+1557127791 /home/administrator/Desktop/C++_Projects/1_Algorithms/Machine Learning/Neuron/Neuron_Perceptron.h
+	"Neuron.h"
+
+1558067564 source:/home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning/_lib_/Abort.cpp
+	"Abort.h"
+
+1553601828 /home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning/_lib_/Abort.h
+	<iostream>
+
+1552236551 source:/home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning/_lib_/Ask.cpp
+	"Ask.h"
+
+1552236629 /home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning/_lib_/Ask.h
+	<vector>
+	<string>
+	<sstream>
+	<iostream>
+	<algorithm>
+
+1552476819 source:/home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning/_lib_/Ask_Menu.cpp
+	"Ask_Menu.h"
+
+1552476810 /home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning/_lib_/Ask_Menu.h
+	<functional>
+	"Ask.h"
+
+1552568240 source:/home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning/Genetic/Genetic.cpp
+	"Genetic.h"
+
+1552567437 /home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning/Genetic/Genetic.h
+	<functional>
+	"Genetic_DNA.h"
+
+1552567064 /home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning/Genetic/Genetic_DNA.h
+	<chrono>
+	<random>
+	<string>
+
+1552568188 source:/home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning/Genetic/Genetic_DNA.cpp
+	"Genetic_DNA.h"
+
+1552568454 source:/home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning/Genetic/Genetic_run.cpp
+	<iostream>
+	<iomanip>
+	"Genetic.h"
+
+1558010071 source:/home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning/KNN/KNN_Class.cpp
+	"KNN_Class.h"
+
+1558009682 /home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning/KNN/KNN_Class.h
+	<set>
+	<cmath>
+	<iostream>
+	<algorithm>
+	"KNN_Element.h"
+	"KNN_ReadElements.h"
+
+1558009690 /home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning/KNN/KNN_Element.h
+	<array>
+	<vector>
+	<string>
+
+1558004617 /home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning/KNN/KNN_ReadElements.h
+	<fstream>
+	<iostream>
+	<filesystem>
+	"KNN_Element.h"
+
+1558009728 source:/home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning/KNN/KNN_ReadElements.cpp
+	"KNN_ReadElements.h"
+
+1558010386 source:/home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning/KNN/KNN_run.cpp
+	"KNN_Class.h"
+	"KNN_ReadElements.h"
+
+1564672689 source:/home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning/Main.cpp
+	<vector>
+	"_lib_/Ask_Menu.h"
+
+1557217072 source:/home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning/Neural_Network/Neural_Network.cpp
+	"Neural_Network.h"
+
+1553711556 /home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning/Neural_Network/Neural_Network.h
+	"Neural_Network_Synapses.h"
+
+1557128396 /home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning/Neural_Network/Neural_Network_Synapses.h
+	<vector>
+	"../Neuron/Neuron_Net.h"
+
+1557309504 /home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning/Neuron/Neuron_Net.h
+	"Neuron.h"
+
+1557309313 /home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning/Neuron/Neuron.h
+	<functional>
+	<random>
+	<chrono>
+	"../_lib_/Abort.h"
+
+1553718647 source:/home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning/Neural_Network/NeuraL_Network_run.cpp
+	<iostream>
+	<iomanip>
+	"Neural_Network.h"
+
+1557309128 source:/home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning/Neural_Network/Neural_Network_Synapses.cpp
+	"Neural_Network_Synapses.h"
+
+1557309432 source:/home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning/Neuron/Neuron.cpp
+	"Neuron.h"
+
+1557309411 source:/home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning/Neuron/Neuron_Net.cpp
+	"Neuron_Net.h"
+
+1557309446 source:/home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning/Neuron/Neuron_Perceptron.cpp
+	"Neuron_Perceptron.h"
+
+1557127791 /home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning/Neuron/Neuron_Perceptron.h
+	"Neuron.h"
+
+1553603610 source:/home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning/Perceptron/Perceptron.cpp
+	"Perceptron.h"
+
+1557217051 /home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning/Perceptron/Perceptron.h
+	"../Neuron/Neuron_Perceptron.h"
+
+1553502896 source:/home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning/Perceptron/Perceptron_run.cpp
+	"Perceptron.h"
+	"Perceptron_run_Functions.h"
+
+1553435567 /home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning/Perceptron/Perceptron_run_Functions.h
+	<array>
+	<vector>
+	<optional>
+	<functional>
+	<iostream>
+	<iomanip>
+	"Perceptron.h"
+
+1553715677 source:/home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning/Perceptron/Perceptron_run_Functions.cpp
+	"Perceptron_run_Functions.h"
 

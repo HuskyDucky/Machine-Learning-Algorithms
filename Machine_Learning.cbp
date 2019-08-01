@@ -18,11 +18,12 @@
 					<Add option="-Wall" />
 					<Add option="-std=c++1z" />
 					<Add option="-m64" />
+					<Add option="-fno-exceptions" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
 					<Add option="-m64" />
-					<Add option="-lstdc++fs" />
+					<Add option="-pthread" />
 				</Linker>
 			</Target>
 		</Build>
@@ -44,15 +45,25 @@
 		<Unit filename="KNN/knn_Data2Test.txt" />
 		<Unit filename="KNN/knn_DataBase.txt" />
 		<Unit filename="Main.cpp" />
+		<Unit filename="Neural_Network/NeuraL_Network_run.cpp" />
+		<Unit filename="Neural_Network/Neural_Network.cpp" />
+		<Unit filename="Neural_Network/Neural_Network.h" />
+		<Unit filename="Neural_Network/Neural_Network_Synapses.cpp" />
+		<Unit filename="Neural_Network/Neural_Network_Synapses.h" />
 		<Unit filename="Neuron/Neuron.cpp" />
 		<Unit filename="Neuron/Neuron.h" />
-		<Unit filename="Neuron/Neuron_Abort.h" />
+		<Unit filename="Neuron/Neuron_Net.cpp" />
+		<Unit filename="Neuron/Neuron_Net.h" />
+		<Unit filename="Neuron/Neuron_Perceptron.cpp" />
+		<Unit filename="Neuron/Neuron_Perceptron.h" />
 		<Unit filename="Perceptron/Linear_Function.png" />
 		<Unit filename="Perceptron/Perceptron.cpp" />
 		<Unit filename="Perceptron/Perceptron.h" />
 		<Unit filename="Perceptron/Perceptron_run.cpp" />
 		<Unit filename="Perceptron/Perceptron_run_Functions.cpp" />
 		<Unit filename="Perceptron/Perceptron_run_Functions.h" />
+		<Unit filename="_lib_/Abort.cpp" />
+		<Unit filename="_lib_/Abort.h" />
 		<Unit filename="_lib_/Ask.cpp" />
 		<Unit filename="_lib_/Ask.h" />
 		<Unit filename="_lib_/Ask_Menu.cpp" />

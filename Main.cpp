@@ -11,9 +11,11 @@
     Software distributed under the MIT License is distributed on an "AS IS" BASIS,
     NO WARRANTIES OR CONDITIONS OF ANY KIND, explicit or implicit.
 **/
+
 void Run_Genetic_Algorithm();
 void Run_KNN();
 void Run_Perceptron();
+void Run_Neural_Network();
 
 #include <vector>
 #include "_lib_/Ask_Menu.h"
@@ -21,9 +23,10 @@ void Run_Perceptron();
 int main() {
 
     ListOfAnswers Options
-                    {{"Genetic Algorithm",              [](){ Run_Genetic_Algorithm(); }},
-                     {"k-Nearest Neighbors algorithm",  [](){ Run_KNN(); }},
-                     {"Perceptron",                     [](){ Run_Perceptron(); }}
+                    {{"Genetic Algorithm", [](){ Run_Genetic_Algorithm(); }},
+                     {"k-Nearest Neighbors Algorithm",  [](){ Run_KNN(); }},
+                     {"Perceptron",        [](){ Run_Perceptron(); }},
+//                     {"Neural Network",    [](){ Run_Neural_Network(); }}
     };
 
     Ask_Menu TheQuestion("\n\nChoose the Algorithm you are learning:\n", move(Options));
