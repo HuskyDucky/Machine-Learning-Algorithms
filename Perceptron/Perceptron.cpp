@@ -1,7 +1,7 @@
 /**
     File    : Perceptron_run.cpp
     Author  : Menashe Rosemberg
-    Created : 2019.03.17            Version: 20190321.2
+    Created : 2019.03.17            Version: 20190321.3
 
     Perceptron
 
@@ -15,10 +15,12 @@
 
 Perceptron::Perceptron(const QDedritesType qofDedrites,
                        const double LearnRate,
-                       const AxonActFunction& fAxonF) : Neuron(qofDedrites, LearnRate, fAxonF) {}
+                       const AxonActFunction& fAxonF) : Neuron_Perceptron(qofDedrites, LearnRate, fAxonF) {}
 
 void Perceptron::Training(const XYR2LearnWith& xyr) {
-     for (uint16_t Teach = 0; Teach < xyr.size(); ++Teach)
+     for (uint16_t Teach = xyr.size() - 1;
+                   Teach != numeric_limits<uint16_t>::max();
+                 --Teach)
           this->LearnFrom(xyr[Teach].first, xyr[Teach].second); }
 
 AxonResult Perceptron::run(const DatasList& xy) {

@@ -1,7 +1,7 @@
 /**
     File    : Perceptron_run.cpp
     Author  : Menashe Rosemberg
-    Created : 2019.03.17            Version: 20190324.1
+    Created : 2019.03.17            Version: 20190324.2
 
     Perceptron
 
@@ -14,13 +14,11 @@
 #include "Perceptron.h"
 #include "Perceptron_run_Functions.h"
 
-double TargetLinearFunction(const vector<double>& xy) { return 2.0 * xy[0] + 3.0 - xy[1]; }
-
-const uint16_t Coordenates = 2;
-const double LearningRate   = 0.01;
-AxonResult ActivationFunction(AxonResult AxR) { return AxR > 0.0 ?  1.0 : -1.0; }
-
 void Run_Perceptron() {
+     auto TargetLinearFunction  = [](const vector<double>& xy) -> double { return 2.0 * xy[0] + 3.0 - xy[1]; };
+     const uint16_t Coordenates = 2;
+     const double LearningRate  = 0.01;
+     auto ActivationFunction    = [](AxonResult AxR) -> AxonResult { return AxR > 0.0 ?  1.0 : -1.0; };
 
      PointsGenerator Points({{-10.0,-17.0},     //edge over f(x)
                              { 10.0, 23.0},     //edge over f(x)
@@ -28,8 +26,8 @@ void Run_Perceptron() {
                              {  6.0, 15.0},     //over f(x)
                              { -9.0,-15.0}      //over f(x)
                             },
-                            {{-10, 10},//Graph limit to x
-                             {-17, 23}//Graph limit to y
+                            {{-10, 10},         //Graph limit to x
+                             {-17, 23}          //Graph limit to y
                             });
 
      XYR2LearnWith xyr = Points.GenerateAndPrintTrainingPoints(200,

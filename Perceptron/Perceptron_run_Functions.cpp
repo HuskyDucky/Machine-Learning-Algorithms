@@ -1,7 +1,7 @@
 /**
     File    : Perceptron_run_Functions.cpp
     Author  : Menashe Rosemberg
-    Created : 2019.03.17            Version: 20190324.1
+    Created : 2019.03.17            Version: 20190324.3
 
     Perceptron
 
@@ -71,7 +71,7 @@ void PrintResults(const bool PrintLine, uint16_t Pos, const XY& xy, AxonResult G
 void ShowPoint(const bool PrintLine, int16_t dedriteX, int16_t dedriteY, AxonResult Position, optional<AxonResult> Result) {
 
      if (PrintLine)
-        cout << '\n' << string(35, '-');
+        cout << '\n' << string(30, '-') << " End of critical points";
 
      cout << "\nX: " << setw(3) << dedriteX
           <<  " Y: " << setw(3) << dedriteY

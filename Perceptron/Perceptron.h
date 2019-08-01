@@ -1,7 +1,7 @@
 /**
     File    : Perceptron_run.cpp
     Author  : Menashe Rosemberg
-    Created : 2019.03.17            Version: 20190321.1
+    Created : 2019.03.17            Version: 20190321.3
 
     Perceptron
 
@@ -14,12 +14,12 @@
 #ifndef PERCEPTRON_H
 #define PERCEPTRON_H
 
-#include "../Neuron/Neuron.h"
+#include "../Neuron/Neuron_Perceptron.h"
 
 using XYR2LearnWith   = vector<pair<DatasList, AxonResult>>;
 using XY              = vector<DatasList>;
 
-struct Perceptron : Neuron {
+struct Perceptron : Neuron_Perceptron {
        Perceptron(const QDedritesType qofDedrites, const double LearnRate, const AxonActFunction& fAxonF);
 
     void Training(const XYR2LearnWith& xyr);
