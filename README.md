@@ -7,3 +7,5 @@ Genetic Algorithm
 k-Nearest Neighbors Algorithm
 
 Perceptron
+
+Back Propagation
