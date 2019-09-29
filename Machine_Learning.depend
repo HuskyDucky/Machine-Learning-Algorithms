@@ -208,7 +208,7 @@
 	"KNN_Class.h"
 	"KNN_ReadElements.h"
 
-1564672689 source:/home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning/Main.cpp
+1569661733 source:/home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning/Main.cpp
 	<vector>
 	"_lib_/Ask_Menu.h"
 
@@ -272,4 +272,57 @@
 
 1553715677 source:/home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning/Perceptron/Perceptron_run_Functions.cpp
 	"Perceptron_run_Functions.h"
+
+1569739252 source:/home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning/Back_Propagation/Neural_Network_T2.cpp
+	"Neural_Network_T2.h"
+	<iostream>
+
+1569739259 /home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning/Back_Propagation/Neural_Network_T2.h
+	<cmath>
+	<vector>
+	<chrono>
+	<random>
+	<cassert>
+	"Neuron_Net_T2.h"
+
+1569661348 /home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning/Back_Propagation/Neuron_Network_T2.h
+	<cmath>
+	<chrono>
+	<random>
+	<vector>
+
+1569661933 source:/home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning/Back_Propagation/Neural_Network_T2_Run.cpp
+	<vector>
+	<cassert>
+	<iostream>
+	"Neural_Network_T2.h"
+	"Neural_Network_T2_TrainingData.h"
+
+1569660004 /home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning/Back_Propagation/Neural_Network_T2_TrainingData.h
+	<vector>
+	<string>
+	<fstream>
+	<sstream>
+	<iostream>
+
+1569661874 source:/home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning/Back_Propagation/Neural_Network_T2_TrainingData.cpp
+	"Neural_Network_T2_TrainingData.h"
+
+1569661448 source:/home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning/Back_Propagation/Neuron_Network_T2.cpp
+	"Neuron_Network_T2.h"
+
+1569661464 source:/home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning/Back_Propagation/Neuron_Network_T2_Nucleus.cpp
+	"Neuron_Network_T2.h"
+
+1569739401 /home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning/Back_Propagation/Neuron_Net_T2.h
+	<cmath>
+	<chrono>
+	<random>
+	<vector>
+
+1569739082 source:/home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning/Back_Propagation/Neuron_Net_T2.cpp
+	"Neuron_Net_T2.h"
+
+1569739359 source:/home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning/Back_Propagation/Neuron_Net_T2_Nucleus.cpp
+	"Neuron_Net_T2.h"
 

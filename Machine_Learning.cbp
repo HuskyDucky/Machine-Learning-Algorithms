@@ -18,12 +18,12 @@
 					<Add option="-Wall" />
 					<Add option="-std=c++1z" />
 					<Add option="-m64" />
-					<Add option="-fno-exceptions" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
 					<Add option="-m64" />
 					<Add option="-pthread" />
+					<Add option="-lstdc++fs" />
 				</Linker>
 			</Target>
 		</Build>
@@ -31,6 +31,12 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Back_Propagation/Neural_Network_T2.cpp" />
+		<Unit filename="Back_Propagation/Neural_Network_T2.h" />
+		<Unit filename="Back_Propagation/Neural_Network_T2_Run.cpp" />
+		<Unit filename="Back_Propagation/Neural_Network_T2_TrainingData.cpp" />
+		<Unit filename="Back_Propagation/Neural_Network_T2_TrainingData.h" />
+		<Unit filename="Back_Propagation/Neural_Network_T2_TrainingData.txt" />
 		<Unit filename="Genetic/Genetic.cpp" />
 		<Unit filename="Genetic/Genetic.h" />
 		<Unit filename="Genetic/Genetic_DNA.cpp" />
@@ -45,15 +51,18 @@
 		<Unit filename="KNN/knn_Data2Test.txt" />
 		<Unit filename="KNN/knn_DataBase.txt" />
 		<Unit filename="Main.cpp" />
-		<Unit filename="Neural_Network/NeuraL_Network_run.cpp" />
 		<Unit filename="Neural_Network/Neural_Network.cpp" />
 		<Unit filename="Neural_Network/Neural_Network.h" />
 		<Unit filename="Neural_Network/Neural_Network_Synapses.cpp" />
 		<Unit filename="Neural_Network/Neural_Network_Synapses.h" />
+		<Unit filename="Neural_Network/Neural_Network_run.cpp" />
 		<Unit filename="Neuron/Neuron.cpp" />
 		<Unit filename="Neuron/Neuron.h" />
 		<Unit filename="Neuron/Neuron_Net.cpp" />
 		<Unit filename="Neuron/Neuron_Net.h" />
+		<Unit filename="Neuron/Neuron_Net_T2.cpp" />
+		<Unit filename="Neuron/Neuron_Net_T2.h" />
+		<Unit filename="Neuron/Neuron_Net_T2_Nucleus.cpp" />
 		<Unit filename="Neuron/Neuron_Perceptron.cpp" />
 		<Unit filename="Neuron/Neuron_Perceptron.h" />
 		<Unit filename="Perceptron/Linear_Function.png" />

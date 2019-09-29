@@ -1,7 +1,7 @@
 /**
     File    : Main.cpp
     Author  : Menashe Rosemberg
-    Created : 2019.03.02            Version: 20190516.1
+    Created : 2019.03.02            Version: 20190516.3
 
     Construct a simple question and wait the answer
 
@@ -16,6 +16,7 @@ void Run_Genetic_Algorithm();
 void Run_KNN();
 void Run_Perceptron();
 void Run_Neural_Network();
+void Run_Neural_Network_T2();
 
 #include <vector>
 #include "_lib_/Ask_Menu.h"
@@ -23,10 +24,11 @@ void Run_Neural_Network();
 int main() {
 
     ListOfAnswers Options
-                    {{"Genetic Algorithm", [](){ Run_Genetic_Algorithm(); }},
-                     {"k-Nearest Neighbors Algorithm",  [](){ Run_KNN(); }},
-                     {"Perceptron",        [](){ Run_Perceptron(); }},
-//                     {"Neural Network",    [](){ Run_Neural_Network(); }}
+                    {{"Genetic Algorithm",             [](){ Run_Genetic_Algorithm(); }},
+                     {"k-Nearest Neighbors Algorithm", [](){ Run_KNN(); }},
+                     {"Perceptron",                    [](){ Run_Perceptron(); }},
+//                     {"Neural Network",                [](){ Run_Neural_Network(); }},
+                     {"Back Propagation",              [](){ Run_Neural_Network_T2(); }}
     };
 
     Ask_Menu TheQuestion("\n\nChoose the Algorithm you are learning:\n", move(Options));
