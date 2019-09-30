@@ -8,4 +8,4 @@ k-Nearest Neighbors Algorithm
 
 Perceptron
 
-Neural Network - Gradient Descent
+Neural Network - Eta/ Momentum
