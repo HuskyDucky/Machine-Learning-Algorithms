@@ -31,11 +31,6 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="Back_Propagation/Neural_Network_T2.cpp" />
-		<Unit filename="Back_Propagation/Neural_Network_T2.h" />
-		<Unit filename="Back_Propagation/Neural_Network_T2_Run.cpp" />
-		<Unit filename="Back_Propagation/Neural_Network_T2_TrainingData.cpp" />
-		<Unit filename="Back_Propagation/Neural_Network_T2_TrainingData.h" />
 		<Unit filename="Back_Propagation/Neural_Network_T2_TrainingData.txt" />
 		<Unit filename="Genetic/Genetic.cpp" />
 		<Unit filename="Genetic/Genetic.h" />
@@ -51,11 +46,17 @@
 		<Unit filename="KNN/knn_Data2Test.txt" />
 		<Unit filename="KNN/knn_DataBase.txt" />
 		<Unit filename="Main.cpp" />
-		<Unit filename="Neural_Network/Neural_Network.cpp" />
-		<Unit filename="Neural_Network/Neural_Network.h" />
-		<Unit filename="Neural_Network/Neural_Network_Synapses.cpp" />
-		<Unit filename="Neural_Network/Neural_Network_Synapses.h" />
-		<Unit filename="Neural_Network/Neural_Network_run.cpp" />
+		<Unit filename="NeuralNetwork_Eta_Momentum/Neural_Network.cpp" />
+		<Unit filename="NeuralNetwork_Eta_Momentum/Neural_Network.h" />
+		<Unit filename="NeuralNetwork_Eta_Momentum/Neural_Network_Synapses.cpp" />
+		<Unit filename="NeuralNetwork_Eta_Momentum/Neural_Network_Synapses.h" />
+		<Unit filename="NeuralNetwork_Eta_Momentum/Neural_Network_run.cpp" />
+		<Unit filename="NeuralNetwork_Gradient_Descent/Neural_Network_T2.cpp" />
+		<Unit filename="NeuralNetwork_Gradient_Descent/Neural_Network_T2.h" />
+		<Unit filename="NeuralNetwork_Gradient_Descent/Neural_Network_T2_Run.cpp" />
+		<Unit filename="NeuralNetwork_Gradient_Descent/Neural_Network_T2_TrainingData.cpp" />
+		<Unit filename="NeuralNetwork_Gradient_Descent/Neural_Network_T2_TrainingData.h" />
+		<Unit filename="NeuralNetwork_Gradient_Descent/Neural_Network_T2_TrainingData.txt" />
 		<Unit filename="Neuron/Neuron.cpp" />
 		<Unit filename="Neuron/Neuron.h" />
 		<Unit filename="Neuron/Neuron_Net.cpp" />
