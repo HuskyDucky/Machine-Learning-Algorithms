@@ -8,4 +8,4 @@ k-Nearest Neighbors Algorithm
 
 Perceptron
 
-Back Propagation
+Neural Network - Gradient Descent
