@@ -31,7 +31,6 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="Back_Propagation/Neural_Network_T2_TrainingData.txt" />
 		<Unit filename="Genetic/Genetic.cpp" />
 		<Unit filename="Genetic/Genetic.h" />
 		<Unit filename="Genetic/Genetic_DNA.cpp" />
@@ -56,7 +55,6 @@
 		<Unit filename="NeuralNetwork_Gradient_Descent/Neural_Network.h" />
 		<Unit filename="NeuralNetwork_Gradient_Descent/Neural_Network_Synapses.cpp" />
 		<Unit filename="NeuralNetwork_Gradient_Descent/Neural_Network_Synapses.h" />
-		<Unit filename="NeuralNetwork_Gradient_Descent/Neural_Network_T2_TrainingData.txt" />
 		<Unit filename="NeuralNetwork_Gradient_Descent/Neural_Network_run.cpp" />
 		<Unit filename="Neuron/Neuron.cpp" />
 		<Unit filename="Neuron/Neuron.h" />

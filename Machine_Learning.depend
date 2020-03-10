@@ -326,3 +326,181 @@
 1569739359 source:/home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning/Back_Propagation/Neuron_Net_T2_Nucleus.cpp
 	"Neuron_Net_T2.h"
 
+1558067564 source:/home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning - GitHub/_lib_/Abort.cpp
+	"Abort.h"
+
+1553601828 /home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning - GitHub/_lib_/Abort.h
+	<iostream>
+
+1552236551 source:/home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning - GitHub/_lib_/Ask.cpp
+	"Ask.h"
+
+1552236629 /home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning - GitHub/_lib_/Ask.h
+	<vector>
+	<string>
+	<sstream>
+	<iostream>
+	<algorithm>
+
+1552476819 source:/home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning - GitHub/_lib_/Ask_Menu.cpp
+	"Ask_Menu.h"
+
+1552476810 /home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning - GitHub/_lib_/Ask_Menu.h
+	<functional>
+	"Ask.h"
+
+1552568240 source:/home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning - GitHub/Genetic/Genetic.cpp
+	"Genetic.h"
+
+1569740270 /home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning - GitHub/Genetic/Genetic.h
+	<functional>
+	"Genetic_DNA.h"
+
+1552567064 /home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning - GitHub/Genetic/Genetic_DNA.h
+	<chrono>
+	<random>
+	<string>
+
+1552568188 source:/home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning - GitHub/Genetic/Genetic_DNA.cpp
+	"Genetic_DNA.h"
+
+1552568454 source:/home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning - GitHub/Genetic/Genetic_run.cpp
+	<iostream>
+	<iomanip>
+	"Genetic.h"
+
+1558010071 source:/home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning - GitHub/KNN/KNN_Class.cpp
+	"KNN_Class.h"
+
+1558009682 /home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning - GitHub/KNN/KNN_Class.h
+	<set>
+	<cmath>
+	<iostream>
+	<algorithm>
+	"KNN_Element.h"
+	"KNN_ReadElements.h"
+
+1558009690 /home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning - GitHub/KNN/KNN_Element.h
+	<array>
+	<vector>
+	<string>
+
+1558004617 /home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning - GitHub/KNN/KNN_ReadElements.h
+	<fstream>
+	<iostream>
+	<filesystem>
+	"KNN_Element.h"
+
+1558009728 source:/home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning - GitHub/KNN/KNN_ReadElements.cpp
+	"KNN_ReadElements.h"
+
+1558010386 source:/home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning - GitHub/KNN/KNN_run.cpp
+	"KNN_Class.h"
+	"KNN_ReadElements.h"
+
+1569852000 source:/home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning - GitHub/Main.cpp
+	<vector>
+	"_lib_/Ask_Menu.h"
+
+1569739252 source:/home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning - GitHub/NeuralNetwork_Eta_Momentum/Neural_Network_T2.cpp
+	"Neural_Network_T2.h"
+	<iostream>
+
+1569852826 /home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning - GitHub/NeuralNetwork_Eta_Momentum/Neural_Network_T2.h
+	<cmath>
+	<vector>
+	<chrono>
+	<random>
+	<cassert>
+	"../Neuron/Neuron_Net_T2.h"
+
+1569739401 /home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning - GitHub/Neuron/Neuron_Net_T2.h
+	<cmath>
+	<chrono>
+	<random>
+	<vector>
+
+1569739415 source:/home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning - GitHub/NeuralNetwork_Eta_Momentum/Neural_Network_T2_run.cpp
+	<vector>
+	<cassert>
+	<iostream>
+	"Neural_Network_T2.h"
+	"Neural_Network_T2_TrainingData.h"
+
+1569660004 /home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning - GitHub/NeuralNetwork_Eta_Momentum/Neural_Network_T2_TrainingData.h
+	<vector>
+	<string>
+	<fstream>
+	<sstream>
+	<iostream>
+
+1569661874 source:/home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning - GitHub/NeuralNetwork_Eta_Momentum/Neural_Network_T2_TrainingData.cpp
+	"Neural_Network_T2_TrainingData.h"
+
+1569868920 source:/home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning - GitHub/NeuralNetwork_Gradient_Descent/Neural_Network.cpp
+	"Neural_Network.h"
+
+1569867825 /home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning - GitHub/NeuralNetwork_Gradient_Descent/Neural_Network.h
+	"Neural_Network_Synapses.h"
+
+1557128396 /home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning - GitHub/NeuralNetwork_Gradient_Descent/Neural_Network_Synapses.h
+	<vector>
+	"../Neuron/Neuron_Net.h"
+
+1557309504 /home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning - GitHub/Neuron/Neuron_Net.h
+	"Neuron.h"
+
+1557309313 /home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning - GitHub/Neuron/Neuron.h
+	<functional>
+	<random>
+	<chrono>
+	"../_lib_/Abort.h"
+
+1569867609 source:/home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning - GitHub/NeuralNetwork_Gradient_Descent/Neural_Network_run.cpp
+	<iostream>
+	<iomanip>
+	"Neural_Network.h"
+
+1569868422 source:/home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning - GitHub/NeuralNetwork_Gradient_Descent/Neural_Network_Synapses.cpp
+	"Neural_Network_Synapses.h"
+
+1557309432 source:/home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning - GitHub/Neuron/Neuron.cpp
+	"Neuron.h"
+
+1557309411 source:/home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning - GitHub/Neuron/Neuron_Net.cpp
+	"Neuron_Net.h"
+
+1569739082 source:/home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning - GitHub/Neuron/Neuron_Net_T2.cpp
+	"Neuron_Net_T2.h"
+
+1569739359 source:/home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning - GitHub/Neuron/Neuron_Net_T2_Nucleus.cpp
+	"Neuron_Net_T2.h"
+
+1557309446 source:/home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning - GitHub/Neuron/Neuron_Perceptron.cpp
+	"Neuron_Perceptron.h"
+
+1557127791 /home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning - GitHub/Neuron/Neuron_Perceptron.h
+	"Neuron.h"
+
+1553603610 source:/home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning - GitHub/Perceptron/Perceptron.cpp
+	"Perceptron.h"
+
+1557217051 /home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning - GitHub/Perceptron/Perceptron.h
+	"../Neuron/Neuron_Perceptron.h"
+
+1553502896 source:/home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning - GitHub/Perceptron/Perceptron_run.cpp
+	"Perceptron.h"
+	"Perceptron_run_Functions.h"
+
+1553435567 /home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning - GitHub/Perceptron/Perceptron_run_Functions.h
+	<array>
+	<vector>
+	<optional>
+	<functional>
+	<iostream>
+	<iomanip>
+	"Perceptron.h"
+
+1553715677 source:/home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning - GitHub/Perceptron/Perceptron_run_Functions.cpp
+	"Perceptron_run_Functions.h"
+
