@@ -5,7 +5,7 @@
 
     k-Nearest Neighbors algorithm - k-NN - Read elements from file
 
-    Copyright (c) 2019 TheArquitect (Menashe Rosemberg) rosemberg@ymail.com
+    Copyright (c) 2019 HuskyDucky (Menashe Rosemberg) rosemberg@ymail.com
 
     Redistribution and use in source and binary forms, with or without
     modification, are permitted provided that the following conditions are met:

@@ -1,11 +1,11 @@
 /**
     File    : Neural_Network_T2_TrainingData.cpp
     Author  : Menashe Rosemberg
-    Created : 2019.03.02            Version: 20190928.1
+    Created : 2019.03.02            Version: 20190928.2
 
     XOR results. Based on Dave Muller example.
 
-    Copyright (c) 2019 TheArquitect (Menashe Rosemberg) rosemberg@ymail.com
+    Copyright (c) 2019 HuskyDucky (Menashe Rosemberg) rosemberg@ymail.com
 
     Redistribution and use in source and binary forms, with or without
     modification, are permitted provided that the following conditions are met:
@@ -34,6 +34,7 @@
 #include <string>
 #include <fstream>
 #include <sstream>
+#include <cstdint>
 #include <iostream>
 
 using namespace std;

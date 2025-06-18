@@ -1,11 +1,11 @@
 /**
     File    : Ask.h
     Author  : Menashe Rosemberg
-    Created : 2017.12.03            Version: 20190310.1
+    Created : 2017.12.03            Version: 20190310.2
 
     Construct a simple question and wait the answer
 
-    Copyright (c) 2019 TheArquitect (Menashe Rosemberg) rosemberg@ymail.com
+    Copyright (c) 2019 HuskyDucky (Menashe Rosemberg) rosemberg@ymail.com
 
     Redistribution and use in source and binary forms, with or without
     modification, are permitted provided that the following conditions are met:
@@ -32,6 +32,7 @@
 
 #include <vector>
 #include <string>
+#include <cstdint>
 #include <sstream>
 #include <iostream>
 #include <algorithm>

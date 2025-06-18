@@ -504,3 +504,185 @@
 1553715677 source:/home/thearquitect/Desktop/C++_Projects/1_Algorithms/Machine Learning - GitHub/Perceptron/Perceptron_run_Functions.cpp
 	"Perceptron_run_Functions.h"
 
+1750270621 source:/home/menashe/Projects/C++_Projects/Machine Learning Algorithms/_lib_/Abort.cpp
+	"Abort.h"
+
+1750270768 /home/menashe/Projects/C++_Projects/Machine Learning Algorithms/_lib_/Abort.h
+	<cstdint>
+	<iostream>
+
+1750270621 source:/home/menashe/Projects/C++_Projects/Machine Learning Algorithms/_lib_/Ask.cpp
+	"Ask.h"
+
+1750270716 /home/menashe/Projects/C++_Projects/Machine Learning Algorithms/_lib_/Ask.h
+	<vector>
+	<string>
+	<cstdint>
+	<sstream>
+	<iostream>
+	<algorithm>
+
+1750270621 source:/home/menashe/Projects/C++_Projects/Machine Learning Algorithms/_lib_/Ask_Menu.cpp
+	"Ask_Menu.h"
+
+1750270621 /home/menashe/Projects/C++_Projects/Machine Learning Algorithms/_lib_/Ask_Menu.h
+	<functional>
+	"Ask.h"
+
+1750270621 source:/home/menashe/Projects/C++_Projects/Machine Learning Algorithms/Genetic/Genetic.cpp
+	"Genetic.h"
+
+1750270621 /home/menashe/Projects/C++_Projects/Machine Learning Algorithms/Genetic/Genetic.h
+	<functional>
+	"Genetic_DNA.h"
+
+1750270621 /home/menashe/Projects/C++_Projects/Machine Learning Algorithms/Genetic/Genetic_DNA.h
+	<chrono>
+	<random>
+	<string>
+
+1750270621 source:/home/menashe/Projects/C++_Projects/Machine Learning Algorithms/Genetic/Genetic_DNA.cpp
+	"Genetic_DNA.h"
+
+1750270621 source:/home/menashe/Projects/C++_Projects/Machine Learning Algorithms/Genetic/Genetic_run.cpp
+	<iostream>
+	<iomanip>
+	"Genetic.h"
+
+1750270621 source:/home/menashe/Projects/C++_Projects/Machine Learning Algorithms/KNN/KNN_Class.cpp
+	"KNN_Class.h"
+
+1750270621 /home/menashe/Projects/C++_Projects/Machine Learning Algorithms/KNN/KNN_Class.h
+	<set>
+	<cmath>
+	<iostream>
+	<algorithm>
+	"KNN_Element.h"
+	"KNN_ReadElements.h"
+
+1750270798 /home/menashe/Projects/C++_Projects/Machine Learning Algorithms/KNN/KNN_Element.h
+	<array>
+	<vector>
+	<string>
+	<cstdint>
+
+1750270621 /home/menashe/Projects/C++_Projects/Machine Learning Algorithms/KNN/KNN_ReadElements.h
+	<fstream>
+	<iostream>
+	<filesystem>
+	"KNN_Element.h"
+
+1750270621 source:/home/menashe/Projects/C++_Projects/Machine Learning Algorithms/KNN/KNN_ReadElements.cpp
+	"KNN_ReadElements.h"
+
+1750270621 source:/home/menashe/Projects/C++_Projects/Machine Learning Algorithms/KNN/KNN_run.cpp
+	"KNN_Class.h"
+	"KNN_ReadElements.h"
+
+1750270621 source:/home/menashe/Projects/C++_Projects/Machine Learning Algorithms/Main.cpp
+	<vector>
+	"_lib_/Ask_Menu.h"
+
+1750270621 source:/home/menashe/Projects/C++_Projects/Machine Learning Algorithms/NeuralNetwork_Eta_Momentum/Neural_Network_T2.cpp
+	"Neural_Network_T2.h"
+	<iostream>
+
+1750270621 /home/menashe/Projects/C++_Projects/Machine Learning Algorithms/NeuralNetwork_Eta_Momentum/Neural_Network_T2.h
+	<cmath>
+	<vector>
+	<chrono>
+	<random>
+	<cassert>
+	"../Neuron/Neuron_Net_T2.h"
+
+1750270621 /home/menashe/Projects/C++_Projects/Machine Learning Algorithms/Neuron/Neuron_Net_T2.h
+	<cmath>
+	<chrono>
+	<random>
+	<vector>
+
+1750270621 source:/home/menashe/Projects/C++_Projects/Machine Learning Algorithms/NeuralNetwork_Eta_Momentum/Neural_Network_T2_run.cpp
+	<vector>
+	<cassert>
+	<iostream>
+	"Neural_Network_T2.h"
+	"Neural_Network_T2_TrainingData.h"
+
+1750270821 /home/menashe/Projects/C++_Projects/Machine Learning Algorithms/NeuralNetwork_Eta_Momentum/Neural_Network_T2_TrainingData.h
+	<vector>
+	<string>
+	<fstream>
+	<sstream>
+	<cstdint>
+	<iostream>
+
+1750270621 source:/home/menashe/Projects/C++_Projects/Machine Learning Algorithms/NeuralNetwork_Eta_Momentum/Neural_Network_T2_TrainingData.cpp
+	"Neural_Network_T2_TrainingData.h"
+
+1750270621 source:/home/menashe/Projects/C++_Projects/Machine Learning Algorithms/NeuralNetwork_Gradient_Descent/Neural_Network.cpp
+	"Neural_Network.h"
+
+1750270621 /home/menashe/Projects/C++_Projects/Machine Learning Algorithms/NeuralNetwork_Gradient_Descent/Neural_Network.h
+	"Neural_Network_Synapses.h"
+
+1750270621 /home/menashe/Projects/C++_Projects/Machine Learning Algorithms/NeuralNetwork_Gradient_Descent/Neural_Network_Synapses.h
+	<vector>
+	"../Neuron/Neuron_Net.h"
+
+1750270621 /home/menashe/Projects/C++_Projects/Machine Learning Algorithms/Neuron/Neuron_Net.h
+	"Neuron.h"
+
+1750270621 /home/menashe/Projects/C++_Projects/Machine Learning Algorithms/Neuron/Neuron.h
+	<functional>
+	<random>
+	<chrono>
+	"../_lib_/Abort.h"
+
+1750270621 source:/home/menashe/Projects/C++_Projects/Machine Learning Algorithms/NeuralNetwork_Gradient_Descent/Neural_Network_run.cpp
+	<iostream>
+	<iomanip>
+	"Neural_Network.h"
+
+1750270621 source:/home/menashe/Projects/C++_Projects/Machine Learning Algorithms/NeuralNetwork_Gradient_Descent/Neural_Network_Synapses.cpp
+	"Neural_Network_Synapses.h"
+
+1750270621 source:/home/menashe/Projects/C++_Projects/Machine Learning Algorithms/Neuron/Neuron.cpp
+	"Neuron.h"
+
+1750270621 source:/home/menashe/Projects/C++_Projects/Machine Learning Algorithms/Neuron/Neuron_Net.cpp
+	"Neuron_Net.h"
+
+1750270621 source:/home/menashe/Projects/C++_Projects/Machine Learning Algorithms/Neuron/Neuron_Net_T2.cpp
+	"Neuron_Net_T2.h"
+
+1750270621 source:/home/menashe/Projects/C++_Projects/Machine Learning Algorithms/Neuron/Neuron_Net_T2_Nucleus.cpp
+	"Neuron_Net_T2.h"
+
+1750270621 source:/home/menashe/Projects/C++_Projects/Machine Learning Algorithms/Neuron/Neuron_Perceptron.cpp
+	"Neuron_Perceptron.h"
+
+1750270621 /home/menashe/Projects/C++_Projects/Machine Learning Algorithms/Neuron/Neuron_Perceptron.h
+	"Neuron.h"
+
+1750270621 source:/home/menashe/Projects/C++_Projects/Machine Learning Algorithms/Perceptron/Perceptron.cpp
+	"Perceptron.h"
+
+1750270621 /home/menashe/Projects/C++_Projects/Machine Learning Algorithms/Perceptron/Perceptron.h
+	"../Neuron/Neuron_Perceptron.h"
+
+1750270621 source:/home/menashe/Projects/C++_Projects/Machine Learning Algorithms/Perceptron/Perceptron_run.cpp
+	"Perceptron.h"
+	"Perceptron_run_Functions.h"
+
+1750270621 /home/menashe/Projects/C++_Projects/Machine Learning Algorithms/Perceptron/Perceptron_run_Functions.h
+	<array>
+	<vector>
+	<optional>
+	<functional>
+	<iostream>
+	<iomanip>
+	"Perceptron.h"
+
+1750270621 source:/home/menashe/Projects/C++_Projects/Machine Learning Algorithms/Perceptron/Perceptron_run_Functions.cpp
+	"Perceptron_run_Functions.h"
+
